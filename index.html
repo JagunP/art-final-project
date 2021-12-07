@@ -1,4 +1,5 @@
 <title>Minimalist Line Art</title>
+<!-- Looks best in full screen -->
 
 <style>
   
@@ -7,6 +8,7 @@
   }
   
   .back{
+    position: fixed;
     width: 50vw;
     height: 100vh;
     background: rgba(177, 103, 39, 0.3);
@@ -38,8 +40,8 @@
     border-radius: 250px  12px 10px 50px;
     position: absolute;
 		background: rgba(128, 76, 30, 0.7);
-    right: 1%;
-    bottom: 1%;
+    left: 1425;
+    top: 460;
   }
   
   .circle4{
@@ -48,18 +50,16 @@
     border-radius: 250px  12px 10px 50px;
     position: absolute;
 		background: rgba(209, 147, 93, 0.7);
-   	right: 1%;
-    bottom: 1%;
+   	left: 1475;
+    top: 500;
   }
   
   .circle5{
-    width: 2900px;
-    height: 200px;
-    border-radius: 250px  12px 10px 50px;
-    position: absolute;
+    width: 100vw;
+    height: 40vh;
+    position: fixed;
 		background: rgba(243, 182, 130, 0.4);
-    right: 10;
-    bottom: 10;
+    top: 600;
   }
   
   .circle6{
@@ -79,8 +79,8 @@
     border-radius: 25px 122px 107px 50px;
     position: absolute;
 		background: rgba(141, 74, 51, 0.7);
-    left: 17%;
-    top: 27%;
+    left: 290;
+    top: 210;
   }
   
   .circle8{
@@ -89,8 +89,8 @@
     border-radius: 123px  212px 311px 157px;
     position: absolute;
 		background: rgba(175, 76, 42, 0.6);
-    left: 60%;
-    top: 40%;
+    left: 960;
+    top: 360;
     transform: rotate(-50deg);
   }
   
@@ -100,8 +100,8 @@
     border-radius: 132px  122px 113px 177px;
     position: absolute;
 		background: rgba(175, 76, 42, 0.6);
-    left: 39%;
-    top: 30%;
+    left: 630;
+    top: 260;
     transform: rotate(-56deg);
   }
   
@@ -111,8 +111,8 @@
     border-radius: 132px  122px 113px 177px;
     position: absolute;
 		background: rgba(240, 148, 116, 0.7);
-    left: 50%;
-    top: 30%;
+    left: 840;
+    top: 250;
     transform: rotate(56deg);
   }
   
@@ -122,8 +122,8 @@
     border-radius: 132px  122px 113px 177px;
     position: absolute;
 		background: rgba(124, 47, 20, 0.7);
-    left: 73%;
-    top: 50%;
+    left: 1150;
+    top: 450;
     transform: rotate(-56deg);
   }
   
@@ -133,11 +133,9 @@
     position: absolute;
     border-radius: 10%;
     background: transparent;
-    border-left: 3px solid black;
-    border-right: 3px solid black;
-    border-top: 3px solid black;
-    left: 50%;
-    top: 40%;
+    border: 3px solid black;
+    left: 850;
+    top: 350;
     transform: rotate(12deg);
   }
   
@@ -147,8 +145,8 @@
     position: absolute;
     border-radius: 70%;
     border: 3px solid black;
-    left: 56.5%;
-    top: 33%;
+    left: 960;
+    top: 270;
     transform: rotate(12deg);
   }
  
@@ -158,11 +156,9 @@
     position: absolute;
     border-radius: 10%;
     background: transparent;
-    border-left: 3px solid black;
-    border-right: 3px solid black;
-    border-top: 3px solid black;
-    left: 40%;
-    top: 40%;
+    border: 3px solid black;
+    left: 630;
+    top: 350;
     transform: rotate(-12deg);
   }
   
@@ -172,32 +168,30 @@
     position: absolute;
     border-radius: 70%;
     border: 3px solid black;
-    left: 39%;
-    top: 33%;
+    left: 610;
+    top: 270;
     transform: rotate(-12deg);
   }
   
   .line3{
+    position: absolute;
     width: 120px;
     height: 510px;
-    position: absolute;
     border-radius: 150px 150px 50px 20px ;
     background: transparent;
-    border-left: 3px solid black;
-    border-right: 3px solid black;
-    border-top: 3px solid black;
-    left: 45%;
-    top: 40%;
+    border: 3px solid black;
+    left: 740px;
+    top: 340px;
   }
   
   .linee3{
+    position: absolute;
     width: 30px;
     height: 50px;
-    position: absolute;
     border-radius: 70%;
     border: 3px solid black;
-    left: 47.5%;
-    top: 33%;
+    left: 780px;
+    top: 270px;
   }
   
   .line4{
@@ -206,11 +200,9 @@
     position: absolute;
     border-radius: 150px 150px 50px 20px ;
     background: transparent;
-    border-left: 3px solid black;
-    border-right: 3px solid black;
-    border-top: 3px solid black;
-    left: 60%;
-    top: 40%;
+    border: 3px solid black;
+    left: 1050;
+    top: 340;
     transform: rotate(-12deg);
   }
   
@@ -220,8 +212,8 @@
     position: absolute;
     border-radius: 70%;
     border: 3px solid black;
-    left: 58.5%;
-    top: 33%;
+    left: 1010;
+    top: 270;
     transform: rotate(-12deg);
   }
   
@@ -231,12 +223,10 @@
     position: absolute;
     border-radius: 150px 150px 50px 20px ;
     background: transparent;
-    border-left: 3px solid black;
-    border-right: 3px solid black;
-    border-top: 3px solid black;
-    left: 30%;
-    top: 40%;
-    transform: rotate(12deg);
+    border: 3px solid black;
+    left: 440;
+    top: 340;
+    transform: rotate(10deg);
   }
   
   .linee5{
@@ -245,12 +235,11 @@
     position: absolute;
     border-radius: 70%;
     border: 3px solid black;
-    left: 36.5%;
-    top: 33%;
-    transform: rotate(12deg);
+    left: 530;
+    top: 270;
+    transform: rotate(10deg);
   }
   
- 
   
 </style>
 
@@ -276,5 +265,3 @@
 <div class="linee4"></div>
 <div class="line5"></div>
 <div class="linee5"></div>
-<div class="line6"></div>
-<div class="linee6"></div>
